@@ -1,0 +1,69 @@
+html {
+  background-color: #fff0c3;
+  color: #2e4117;
+}
+
+/* font-family: dalliance-flourishes, sans-serif;
+font-weight: 400;
+
+font-family: dalliance-roman, sans-serif;
+font-weight: 400;
+
+font-family: dalliance-script, sans-serif;
+font-weight: 400; */
+
+h1 {
+  font-family: miller-banner, serif;
+  font-weight: 500;
+}
+
+.header-name {
+  text-align: center;
+}
+
+.header-nav {
+  text-align: center;
+}
+
+/* main {
+  background-image: url("../images/black-rock.jpg");
+  background-size: cover;
+  min-height: 50em;
+  background-position: center center;
+} */
+
+nav a {
+  font-family: miller-banner, serif;
+  font-weight: 400;
+  text-decoration: none;
+  color: #2e4117;
+}
+
+nav a:hover {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .header-name {
+    text-align: center;
+  }
+
+  .header-nav {
+    text-align: center;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .header-name {
+    text-align: left;
+  }
+
+  .header-nav {
+    text-align: right;
+  }
+
+}
