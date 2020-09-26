@@ -26,6 +26,10 @@ Black 900 */
     z-index: 1;
 }
 
+.logo {
+  max-width: 60px;
+}
+
 h1 {
   font-family: font-family: 'Petrona', serif;;
   font-weight: 700;
@@ -49,7 +53,7 @@ h3 {
 
 .fixed {
   overflow: hidden;
-  background-color: #fcf3ec; 
+  background-color: #fcf3ec;
   position: fixed;
   top: 0;
   width: 100%;
@@ -65,6 +69,18 @@ li a {
 nav a:hover {
   color: #003c7d;
 }
+
+/* main {
+  position: relative;
+}
+
+.banner-text {
+  background-color: transparent;
+  position: absolute;
+  left: 10px;
+  right: 0;
+  bottom: 50px;
+} */
 
 .footer-p {
   font-family: 'Inter', sans-serif;
