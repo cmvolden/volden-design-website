@@ -1,6 +1,7 @@
 html {
-  background-color: #fcf3ec;
-  color: #7b7169;
+  background-color: #F3EDE8;
+  color: #7D716D;
+  font-family: 'Inter', sans-serif;
 }
 
 /* font-family: 'Inter', sans-serif;
@@ -17,30 +18,36 @@ Regular 400 italic
 Bold 700
 Black 900 */
 
-.cursor {
+/* .cursor {
     position: absolute;
     background-color: #fff;
     width: 6px;
     height: 6px;
     border-radius: 100%;
     z-index: 1;
-}
+} */
 
 .logo {
-  max-width: 60px;
+  max-width: 70px;
 }
 
 h1 {
-  font-family: font-family: 'Petrona', serif;;
+  font-family: 'Petrona', serif;
   font-weight: 700;
+  color: #7D716D;
 }
 
 h2 {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Petrona', serif;
+  color: #7D716D;
 }
 
 h3 {
   font-family: 'Inter', sans-serif;
+}
+
+.accent {
+  color: #FDB714;
 }
 
 .header-name {
@@ -53,7 +60,7 @@ h3 {
 
 .fixed {
   overflow: hidden;
-  background-color: #fcf3ec;
+  background-color: #F3EDE8;
   position: fixed;
   top: 0;
   width: 100%;
@@ -63,11 +70,11 @@ li a {
   font-family: 'Inter', sans-serif;
   font-weight: 400;
   text-decoration: none;
-  color: #7b7169;
+  color: #7D716D;
 }
 
 nav a:hover {
-  color: #003c7d;
+  color: #004a7c;
 }
 
 /* main {
@@ -87,7 +94,11 @@ nav a:hover {
 }
 
 .footer-link {
-  color: #7b7169;
+  color: #7D716D;
+}
+
+.social-icon {
+  max-width: 25px;
 }
 
 @media only screen and (min-width: 25em) {

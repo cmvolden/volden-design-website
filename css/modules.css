@@ -1028,14 +1028,14 @@ button,
   display: inline-block;
   margin: 0;
   overflow: visible;
-  padding: .375em .75em .42em;
+  padding: .175em .55em .25em;
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
-  background-color: #333;
-  border-radius: 4px;
-  border: 3px solid #333;
-  color: #fff;
+  background-color: #E83528;
+  border-radius: 0px;
+  border: 2px solid #E83528;
+  color: #F3EDE8;
   font: inherit;
   text-decoration: none;
   text-transform: none;
@@ -1052,9 +1052,9 @@ button:focus,
 button:hover,
 .btn:focus,
 .btn:hover {
-  background-color: #000;
-  border-color: #000;
-  color: #fff;
+  background-color: transparent;
+  border-color: #E83528;
+  color: #E83528;
 }
 
 button[disabled] {
@@ -1062,34 +1062,34 @@ button[disabled] {
 }
 
 .btn-light, .btn--light {
-  background-color: #e2e2e2;
-  border-color: #e2e2e2;
-  color: #000;
+  background-color: #004A7C;
+  border-color: #004A7C;
+  color: #F3EDE8;
 }
 
 .btn-light:focus,
 .btn-light:hover,
 .btn--light:focus,
 .btn--light:hover {
-  background-color: #666;
-  border-color: #666;
-  color: #fff;
+  background-color: transparent;
+  border-color: #004A7C;
+  color: #004A7C;
 }
 
 .btn-ghost,
 .btn--ghost {
-  background-color: transparent;
-  border-color: #333;
-  color: #000;
+  background-color: #7D716D;
+  border-color: #7D716D;
+  color: #F3EDE8;
 }
 
 .btn-ghost:focus,
 .btn-ghost:hover,
 .btn--ghost:focus,
 .btn--ghost:hover {
-  background-color: #e2e2e2;
-  border-color: #000;
-  color: #000;
+  background-color: transparent;
+  border-color: #7D716D;
+  color: #7D716D;
 }
 
 .btn-link {
